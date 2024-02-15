@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,4 +12,14 @@
 
 body {
   margin: 0;
+}
+
+@font-face {
+  font-family: "monaspace-krypton";
+  src: url("fonts/MonaspaceKrypton-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "monaspace-neon";
+  src: url("fonts/MonaspaceNeon-Medium.woff") format("woff");
 }
