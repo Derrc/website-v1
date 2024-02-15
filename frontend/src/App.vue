@@ -1,7 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavBar from "./components/NavBar.vue";
+</script>
 
 <template>
-  <div className="text-3xl text-center font-mk p-10">Hello World</div>
+  <NavBar />
+  <router-view />
 </template>
 
 <style scoped></style>
