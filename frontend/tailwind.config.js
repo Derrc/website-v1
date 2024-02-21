@@ -8,6 +8,9 @@ export default {
         mk: "monaspace-krypton",
         mn: "monaspace-neon",
       },
+      maxWidth: {
+        content: "1050px",
+      },
     },
   },
   plugins: [],
