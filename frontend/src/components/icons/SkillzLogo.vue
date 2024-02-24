@@ -15,7 +15,7 @@
     xml:space="preserve"
   >
     <path
-      fill="#FFFFFF"
+      fill="#000000"
       opacity="1.000000"
       stroke="none"
       d="
@@ -46,7 +46,7 @@ M1.000000,127.486565
 z"
     />
     <path
-      fill="#FFFFFF"
+      fill="#000000"
       opacity="1.000000"
       stroke="none"
       d="
@@ -108,7 +108,7 @@ M395.468689,137.000000
 z"
     />
     <path
-      fill="#FFFFFF"
+      fill="#000000"
       opacity="1.000000"
       stroke="none"
       d="
@@ -125,7 +125,7 @@ M302.468628,137.000000
 z"
     />
     <path
-      fill="#FFFFFF"
+      fill="#000000"
       opacity="1.000000"
       stroke="none"
       d="
@@ -142,7 +142,7 @@ M348.468628,137.000000
 z"
     />
     <path
-      fill="#FFFFFF"
+      fill="#000000"
       opacity="1.000000"
       stroke="none"
       d="
@@ -159,7 +159,7 @@ M255.468628,137.000000
 z"
     />
     <path
-      fill="#FFFFFF"
+      fill="#000000"
       opacity="1.000000"
       stroke="none"
       d="

@@ -7,6 +7,8 @@ export default {
       fontFamily: {
         mk: "monaspace-krypton",
         mn: "monaspace-neon",
+        inter: "Inter",
+        mw: "Merriweather",
       },
       maxWidth: {
         content: "1050px",
