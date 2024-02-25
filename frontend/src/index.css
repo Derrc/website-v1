@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Inter";
+}
+
+@font-face {
+  font-family: "monaspace-neon";
+  font-weight: 400;
+  src: url("fonts/MonaspaceNeon-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "monaspace-neon";
+  font-weight: 300;
+  src: url("fonts/MonaspaceNeon-Light.woff") format("woff");
+}

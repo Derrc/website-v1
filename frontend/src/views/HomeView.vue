@@ -10,10 +10,10 @@ const experience = ref<InstanceType<typeof WorkSection> | null>(null);
 const projects = ref<InstanceType<typeof ProjectSection> | null>(null);
 
 const handleProjectClick = (sectionName: Section["name"]) => {
-  const scrollOptions = { behavior: "smooth" };
+  const scrollOptions: ScrollIntoViewOptions = { behavior: "smooth" };
   switch (sectionName) {
     case "about":
-      about.value?.scrollIntoView({ behavior: "smooth" });
+      about.value?.scrollIntoView(scrollOptions);
       break;
     case "experience":
       experience.value?.$el.scrollIntoView(scrollOptions);

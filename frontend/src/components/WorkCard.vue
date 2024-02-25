@@ -1,20 +1,50 @@
 <script setup lang="ts">
 import { type Position } from "../data/positions";
+import LinkIcon from "./icons/LinkIcon.vue";
+import { ref } from "vue";
+
+const isOpen = ref<boolean>(false);
+const isHover = ref<boolean>(false);
 
 defineProps<{ position: Position }>();
 </script>
 
 <template>
-  <div class="grid grid-cols-12">
-    <component :is="position.logo" class="col-span-12" />
-    <p class="text-xl font-normal col-span-12 md:col-span-9">
+  <div
+    class="grid grid-cols-12 p-4 cursor-pointer container transition ease-linear"
+    @click="isOpen = !isOpen"
+    @mouseenter="isHover = true"
+    @mouseleave="isHover = false"
+  >
+    <div class="col-span-12 flex items-center">
+      <component :is="position.logo" />
+      <a class="ml-4" :href="position.link" target="_blank" @click.stop>
+        <LinkIcon :class="isHover ? 'fill-orange' : ''" />
+      </a>
+    </div>
+    <h1
+      class="text-xl font-mn col-span-12 md:col-span-9"
+      :class="isHover ? 'text-orange' : ''"
+    >
       {{ position.title }} • {{ position.company }}
-    </p>
+    </h1>
     <p class="text-sm opacity-70 col-span-12 md:col-span-3">
       {{ position.startDate }} — {{ position.endDate }}
     </p>
-    <p class="col-span-12 md:col-span-8 text-sm mt-4 leading-loose">
-      {{ position.description }}
-    </p>
+    <div
+      class="col-span-12 md:col-span-8 mt-4 transition-all"
+      :class="isOpen ? 'h-20' : 'h-0'"
+    >
+      <p v-if="isOpen" class="text-sm leading-loose">
+        {{ position.description }}
+      </p>
+    </div>
   </div>
 </template>
+
+<style scoped>
+.container:hover {
+  border-radius: 12px;
+  box-shadow: 0px 4px 2px 4px rgb(0 0 0 / 0.4);
+}
+</style>

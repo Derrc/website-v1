@@ -8,7 +8,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     x="0px"
     y="0px"
-    width="200"
+    width="150"
     height="100"
     viewBox="0 0 488 136"
     enable-background="new 0 0 488 136"

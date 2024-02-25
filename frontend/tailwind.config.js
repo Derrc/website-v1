@@ -4,6 +4,10 @@ export default {
   content: [],
   theme: {
     extend: {
+      colors: {
+        almostBlack: "#242424",
+        orange: "#F8BA74",
+      },
       fontFamily: {
         mk: "monaspace-krypton",
         mn: "monaspace-neon",

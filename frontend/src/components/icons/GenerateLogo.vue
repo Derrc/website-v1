@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="70" height="70">
     <g
       transform="translate(0.000000,60.000000) scale(0.100000,-0.100000)"
       fill="#000000"
