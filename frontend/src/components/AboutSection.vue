@@ -3,10 +3,6 @@ import ContactSection from "./ContactSection.vue";
 import Typed from "typed.js";
 import { ref, onMounted, onUnmounted } from "vue";
 
-// light/dark theme
-// aria-label
-// animate navbar on scroll
-
 const typed = ref<Typed>();
 
 onMounted(() => {
