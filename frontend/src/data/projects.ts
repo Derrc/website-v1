@@ -22,11 +22,4 @@ export const projects: Project[] = [
     imageUrl: SipDiagram,
     link: "https://github.com/Derrc/serverless-image-processor",
   },
-  {
-    title: "Reinforcement Learning Algorithms",
-    description:
-      "A collection of various reinforcement learning algorithms including value-based, policy-based, and actor-critic algorithms.",
-    imageUrl: "",
-    link: "https://github.com/Derrc/reinforcement-learning",
-  },
 ];

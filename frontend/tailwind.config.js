@@ -6,7 +6,8 @@ export default {
     extend: {
       colors: {
         almostBlack: "#242424",
-        orange: "#F8BA74",
+        spaceGray: "#333333",
+        secondary: "#F8BA74",
       },
       fontFamily: {
         mk: "monaspace-krypton",
