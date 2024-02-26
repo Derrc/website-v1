@@ -20,7 +20,10 @@ defineProps<{ position: Position }>();
     <div class="col-span-12 flex items-center">
       <component :is="position.logo" />
       <a class="ml-4" :href="position.link" target="_blank" @click.stop>
-        <LinkIcon :class="isHover ? 'fill-secondary' : ''" />
+        <LinkIcon
+          class="transition"
+          :class="isHover ? 'fill-secondary translate-x-2 -translate-y-2' : ''"
+        />
       </a>
     </div>
     <h1

@@ -21,8 +21,11 @@ defineProps<{ project: Project }>();
       <h1 class="text-xl font-mn" :class="isHover ? 'text-secondary' : ''">
         {{ project.title }}
       </h1>
-      <a class="ml-4" :href="project.link" target="_blank" @click.stop>
-        <LinkIcon class="h-5 w-5" :class="isHover ? 'fill-secondary' : ''" />
+      <a class="ml-2" :href="project.link" target="_blank" @click.stop>
+        <LinkIcon
+          class="h-5 w-5 transition"
+          :class="isHover ? 'fill-secondary translate-x-2 -translate-y-2' : ''"
+        />
       </a>
     </div>
     <div
