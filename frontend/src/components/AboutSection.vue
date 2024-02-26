@@ -33,7 +33,7 @@ onUnmounted(() => {
   <div>
     <h1 class="font-mn mb-2 text-5xl">Derrick Kim</h1>
     <span id="typed" class="font-mn h-8 block text-lg" />
-    <div class="about-text my-6">
+    <div class="about-container p-8 my-6">
       <h1 class="font-mn text-4xl mb-4">About Me</h1>
       <p class="font-inter text-base mb-2 leading-loose">
         Hello! I'm Derrick and I am a student at Northeastern University
@@ -44,8 +44,11 @@ onUnmounted(() => {
       <p class="font-inter text-base leading-loose">
         I also love to constantly learn and pick up new skills! Whether its a
         new language, tool, or concept, I always try my best to learn something
-        new everyday. My current goals are to dig deeper into cloud technologies
-        and pickup a new programming language.
+        new everyday. There is always so much to learn in the software
+        development space, and it is incredibly rewarding for me to be able to
+        continuously learn new skills and apply them. My current goals are to
+        dig deeper into cloud technologies, pickup a new programming language,
+        and build my own software as a service.
       </p>
     </div>
     <ContactSection />
@@ -53,10 +56,9 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
-.about-text {
+.about-container {
   border-radius: 12px;
   box-shadow: 0px 4px 2px 4px rgb(0 0 0 / 0.4);
   background-color: #333333;
-  padding: 24px;
 }
 </style>
