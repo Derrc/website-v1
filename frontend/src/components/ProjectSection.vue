@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard.vue";
 <template>
   <div>
     <h1 class="text-4xl mb-6 font-mn">Projects</h1>
-    <div class="flex flex-col gap-y-10 mb-10">
+    <div class="flex flex-col gap-y-6 mb-10">
       <ProjectCard v-for="project in projects" :project="project" />
     </div>
   </div>
