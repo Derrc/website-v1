@@ -22,7 +22,7 @@ defineProps<{ position: Position }>();
       <a class="ml-4" :href="position.link" target="_blank" @click.stop>
         <LinkIcon
           class="transition"
-          :class="isHover ? 'fill-secondary translate-x-2 -translate-y-2' : ''"
+          :class="isHover ? '!fill-secondary translate-x-2 -translate-y-2' : ''"
         />
       </a>
     </div>
@@ -50,6 +50,10 @@ defineProps<{ position: Position }>();
 .container-hover {
   border-radius: 12px;
   box-shadow: 0px 4px 2px 4px rgb(0 0 0 / 0.4);
-  background-color: #333333;
+  background-color: var(--background-color-secondary);
+}
+
+.link-fill {
+  fill: var(--text-color);
 }
 </style>

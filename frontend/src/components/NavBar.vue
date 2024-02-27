@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import VueLogo from "./icons/VueLogo.vue";
 import TypescriptLogo from "./icons/TypescriptLogo.vue";
+import ThemeButton from "./ThemeButton.vue";
 import { watch } from "vue";
 import { Section, sections } from "../data/sections";
 import { Direction, useScrollDirection } from "../hooks/useScrollDirection";
@@ -18,7 +19,7 @@ watch(scrollDirection, () => {
 
 <template>
   <div
-    class="h-16 border-b-[1px] sticky top-0 z-50 transition bg-almostBlack"
+    class="h-16 border-b-[1px] sticky top-0 z-50 transition container-theme"
     :class="scrollDirection == Direction.Down ? '-translate-y-16' : ''"
   >
     <div class="max-w-content mx-auto flex p-4 gap-x-4 items-center">
@@ -32,6 +33,14 @@ watch(scrollDirection, () => {
       >
         {{ section.label }}
       </button>
+      <ThemeButton />
     </div>
   </div>
 </template>
+
+<style scoped>
+.container-theme {
+  background-color: var(--background-color-primary);
+  border-color: var(--text-color);
+}
+</style>

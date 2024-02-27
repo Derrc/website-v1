@@ -32,7 +32,7 @@ import Resume from "../assets/Resume_Derrick_Kim.pdf";
 .logo:hover {
   border-radius: 4px;
   box-shadow: 0px 2px 2px 2px rgb(0 0 0 / 0.4);
-  background-color: #333333;
+  background-color: var(--background-color-secondary);
   cursor: pointer;
 }
 </style>

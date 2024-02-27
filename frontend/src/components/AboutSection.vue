@@ -38,13 +38,12 @@ onUnmounted(() => {
         languages and frameworks to work with are React, Vue, and Typescript.
       </p>
       <p class="font-inter text-base leading-loose">
-        I also love to constantly learn and pick up new skills! Whether its a
-        new language, tool, or concept, I always try my best to learn something
-        new everyday. There is always so much to learn in the software
-        development space, and it is incredibly rewarding for me to be able to
-        continuously learn new skills and apply them. My current goals are to
-        dig deeper into cloud technologies, pickup a new programming language,
-        and build my own software as a service.
+        I love to constantly learn and pick up new skills! Whether its a new
+        language, tool, or concept, I try my best to learn something new
+        everyday. There is always so much to learn in the software development
+        space, and I'm currently loving my journey. My current goals are to dig
+        deeper into cloud technologies, pickup a new programming language, and
+        build my own software as a service.
       </p>
     </div>
     <ContactSection />
@@ -55,6 +54,6 @@ onUnmounted(() => {
 .about-container {
   border-radius: 12px;
   box-shadow: 0px 4px 2px 4px rgb(0 0 0 / 0.4);
-  background-color: #333333;
+  background-color: var(--background-color-secondary);
 }
 </style>

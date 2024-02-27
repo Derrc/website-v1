@@ -7,6 +7,7 @@ export default {
       colors: {
         almostBlack: "#242424",
         spaceGray: "#333333",
+        lightGray: "#f1f3f4",
         secondary: "#F8BA74",
       },
       fontFamily: {

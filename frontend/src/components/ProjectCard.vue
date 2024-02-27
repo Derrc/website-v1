@@ -24,7 +24,7 @@ defineProps<{ project: Project }>();
       <a class="ml-2" :href="project.link" target="_blank" @click.stop>
         <LinkIcon
           class="h-5 w-5 transition"
-          :class="isHover ? 'fill-secondary translate-x-2 -translate-y-2' : ''"
+          :class="isHover ? '!fill-secondary translate-x-2 -translate-y-2' : ''"
         />
       </a>
     </div>
@@ -43,6 +43,6 @@ defineProps<{ project: Project }>();
 .container-hover {
   border-radius: 12px;
   box-shadow: 0px 4px 2px 4px rgb(0 0 0 / 0.4);
-  background-color: #333333;
+  background-color: var(--background-color-secondary);
 }
 </style>

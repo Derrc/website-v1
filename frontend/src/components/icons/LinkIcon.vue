@@ -2,7 +2,7 @@
 
 <template>
   <svg
-    fill="#FFFFFF"
+    class="fill"
     height="24"
     width="24"
     version="1.1"
@@ -18,3 +18,9 @@
     </g>
   </svg>
 </template>
+
+<style scoped>
+.fill {
+  fill: var(--text-color);
+}
+</style>

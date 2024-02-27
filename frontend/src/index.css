@@ -8,17 +8,32 @@
   box-sizing: border-box;
 }
 
-:root {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-}
-
 body {
   margin: 0;
 }
 
 p {
   font-family: "Inter";
+}
+
+:root {
+  --background-color-primary: #242424;
+  --background-color-secondary: #333333;
+  --text-color: white;
+  background-color: var(--background-color-primary);
+  color: var(--text-color);
+  transition-property: background-color;
+  transition-duration: 0.15s;
+}
+
+:root.light {
+  --background-color-primary: white;
+  --background-color-secondary: #f1f3f4;
+  --text-color: black;
+  background-color: var(--background-color-primary);
+  color: var(--text-color);
+  transition-property: background-color;
+  transition-duration: 0.15s;
 }
 
 @font-face {
