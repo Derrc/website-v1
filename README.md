@@ -1,2 +1,3 @@
-# my-website
-personal portfolio website written with Typescript and Vue
+# v1
+
+first iteration of my personal portfolio website

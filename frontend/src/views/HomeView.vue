@@ -43,6 +43,6 @@ const handleProjectClick = (sectionName: Section["name"]) => {
 
 <style scoped>
 .nav-scroll-margin {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 4.5rem;
 }
 </style>
