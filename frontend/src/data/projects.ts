@@ -13,7 +13,7 @@ export const projects: Project[] = [
     description:
       "A cooking recipe blog application built using React, Typescript, Express, Node.js, and MongoDB.",
     imageUrl: "",
-    link: "",
+    link: "https://recipys.netlify.app/",
   },
   {
     title: "Serverless Image Processor",
