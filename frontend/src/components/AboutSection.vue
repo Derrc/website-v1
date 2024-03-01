@@ -37,13 +37,13 @@ onUnmounted(() => {
         developer with a focus in full-stack development. My current favorite
         languages and frameworks to work with are React, Vue, and Typescript.
       </p>
-      <p class="font-inter text-base leading-loose">
+      <p class="font-inter text-base mb-2 leading-loose">
         I love to constantly learn and pick up new skills! Whether its a new
         language, tool, or concept, I try my best to learn something new
-        everyday. There is always so much to learn in the software development
-        space, and I'm currently loving my journey. My current goals are to dig
-        deeper into cloud technologies, pickup a new programming language, and
-        build my own software as a service.
+        everyday. There is so much to learn in the software development space
+        and that is one of many aspects I love about it. My current goals are to
+        dig deeper into cloud technologies, pickup a new programming language,
+        and build my own software as a service.
       </p>
     </div>
     <ContactSection />
